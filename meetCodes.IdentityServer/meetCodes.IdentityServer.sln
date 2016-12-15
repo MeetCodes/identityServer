@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{370E2FED-8BD2-4E8C-81DE-1AE3D5866CE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{24E5D606-F5E2-41A5-9BE3-39AFC0734E2A}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "meetCodes.IdentityServer", "src\meetCodes.IdentityServer\meetCodes.IdentityServer.xproj", "{2D775D91-E9A6-4FE7-8D4B-11EA3279C9DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D775D91-E9A6-4FE7-8D4B-11EA3279C9DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D775D91-E9A6-4FE7-8D4B-11EA3279C9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D775D91-E9A6-4FE7-8D4B-11EA3279C9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D775D91-E9A6-4FE7-8D4B-11EA3279C9DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D775D91-E9A6-4FE7-8D4B-11EA3279C9DB} = {370E2FED-8BD2-4E8C-81DE-1AE3D5866CE4}
+	EndGlobalSection
+EndGlobal
