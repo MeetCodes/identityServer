@@ -120,7 +120,7 @@ namespace IdentityServer4.Quickstart.UI.Controllers
 
         async Task<LoginViewModel> BuildLoginViewModelAsync(string returnUrl, AuthorizationRequest context)
         {
-            var cookie = HttpContext.Authentication.GetTokenAsync("access_token");
+            
             var providers = HttpContext.Authentication.GetAuthenticationSchemes()
                 .Where(x => x.DisplayName != null)
                 .Select(x => new ExternalProvider
@@ -173,7 +173,7 @@ namespace IdentityServer4.Quickstart.UI.Controllers
                 LogoutId = logoutId
             };
 
-            return View(vm);
+             return await Task.Run(() => View(vm)) ;
         }
 
         /// <summary>
