@@ -53,7 +53,7 @@ namespace meetCodes.IdentityServer.Config
                         new Secret("secret".Sha256())
                     },
                     RedirectUris = {"http://localhost:64640/signin-facebook","http://localhost:21402/signin-oidc","https://localhost:21402/signin-oidc",
-                                   "https://www.google.com"},
+                                   "meetcodesapp://signin-oauth"},
                     PostLogoutRedirectUris = {"http://localhost:5002"},
                     AllowedScopes =
                     {
